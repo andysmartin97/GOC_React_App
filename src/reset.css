@@ -1,0 +1,45 @@
+
+
+
+body {
+    background-image: linear-gradient(to bottom, #7EA7B0, #0C4A59, #030E11 );
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    min-height: 100vh; /* Ensure background covers at least viewport height */
+}
+
+
+text, h1,h2,h3,h4,h5, p, li{
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+li {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+
+text {
+    background-color: #FF8C00; /* Set your desired background color */
+    padding: 5px; /* Set padding as needed */
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+

@@ -1,0 +1,9 @@
+.Text-Block-Container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly with space between */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .Intro-Text p, .Intro-Text h3{
+    text-align: center;
+  }

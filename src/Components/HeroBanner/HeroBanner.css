@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*LAYOUT STYLING*/
+/***HERO BANNER STYLING***/
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 800px; /* Set the desired height for your banner */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  
+  /***HERO CONTENT STYLING***/
+.hero-content {
+    text-align: center;
+}
+  
+.hero-content h1,.hero-content h2 {
+    margin-bottom: 20px;
+}
+  
+.hero-content p {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/***********************************/
+/*FONT BANNER STYLING*/
+.hero-banner h1 {
+    font-family: "Barlow", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 2%;
+}
+
+.hero-banner h2{
+    font-family: "Barlow", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+}
+  

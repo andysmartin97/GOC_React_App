@@ -1,0 +1,10 @@
+.Text-Block-Container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly with space between */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+.Title-Card h3, .Title-Card p{
+    text-align: center;
+
+}

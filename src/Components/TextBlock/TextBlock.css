@@ -1,0 +1,20 @@
+.Text-Block{
+    display: flex-wrap;
+    background-color: rgba(176, 176, 176, 0.481); /* Semitransparent white background */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    padding: 10px; /* Add padding inside each item */
+    flex: 1; /* Distribute available space evenly among items */
+    margin: 10px; /* Add spacing around items */
+  }
+
+  .Text-Block h4{
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .Text-Block p{
+    font-size: 14px;
+  }
+
+
+  
