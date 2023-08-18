@@ -1,5 +1,54 @@
-.WhalePic .WhaleSection img {
-    flex: auto;
-    max-width: 200px; /* Adjust the image size as needed */
-    height: 200px; /* Maintain aspect ratio */
-  }
+/* WhaleSection.css */
+
+.WhaleSection-container {
+  display: flex;
+  /*debug
+  color: aquamarine;
+  outline: 4px dashed;
+  */
+
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+
+  margin-top: 100px;
+  margin-bottom: 300px;
+
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+
+
+.WhalePicture {
+  max-width: 800px;
+  min-height: 300px;
+}
+
+.BoxContent .Text-Block {
+
+  max-width: 500px;
+  min-height: 300px;
+  padding: 20px; 
+
+  position: relative; /* Position the .Text-Block as a reference for the ::before pseudo-element */
+}
+
+.BoxContent .Text-Block h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*This creates the small bar on the top left */
+.BoxContent .Text-Block::before {
+  content: ''; /* Create a content box for the pseudo-element */
+  position: absolute; /* Position it absolutely within the .Text-Block */
+  top: 2; /* Place it at the top */
+  left: 0; /* Place it at the left */
+  width: 5px; /* Width of the orange bar */
+  height: 12%; /* Full height of the .Text-Block */
+  background-color: #FF8C00; /* Color of the orange bar */
+}

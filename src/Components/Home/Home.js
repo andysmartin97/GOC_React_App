@@ -31,7 +31,10 @@ class Home extends Component{
                     //boxes with 3 more content is added here more about them on the IntroSection file
                 />
 
-                <WhaleSection/>
+                <section id="whaleSec">
+                    <WhaleSection/>
+                </section>
+
 
                 <InPersonSection/>
 

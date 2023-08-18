@@ -1,9 +1,53 @@
-.Text-Block-Container {
-    display: flex;
-    justify-content: space-between; /* Distribute items evenly with space between */
-    padding: 20px; /* Add padding for spacing */
-  }
+.Intro-BoxContainer {
+  display: flex;
 
-  .Intro-Text p, .Intro-Text h3{
-    text-align: center;
-  }
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.BoxContentIntro .Text-Block {
+
+  max-width: 500px;
+  min-height: 200px;
+
+
+  padding: 20px;
+
+  margin-right: 20px;
+  margin-left: 20px;
+
+
+
+}
+
+
+
+.BoxContentIntro .Text-Block p {
+  
+
+
+}
+
+
+
+.BoxContentIntro .Text-Block h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+
+}
+
+
+/*This creates the small bar on the top left */
+.BoxContentIntro .Text-Block::before {
+  content: ''; /* Create a content box for the pseudo-element */
+  position: absolute; /* Position it absolutely within the .Text-Block */
+  top: 2; /* Place it at the top */
+  left: 0; /* Place it at the left */
+  width: 5px; /* Width of the orange bar */
+  height: 15%; /* Full height of the .Text-Block */
+  background-color: #279ee4; /* Color of the orange bar */
+}

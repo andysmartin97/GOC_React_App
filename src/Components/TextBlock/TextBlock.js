@@ -8,8 +8,8 @@ export default function TextBlock ({title,paragraph}) {
 
     return(
         <div className="Text-Block">
-            <h4>{title}</h4>
-            <p>{paragraph}</p>
+                <h4>{title}</h4>
+                <p>{paragraph}</p>
         </div>
     );
 

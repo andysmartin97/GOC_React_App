@@ -18,9 +18,9 @@ function NavBar() {
         <HashRouter>
              <ul className="NavBar">              
                 <li className="logo"><img src={LogoImage} alt="Logo" /></li>
-                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/">HomeDebug</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/graywhales">The Gray Whales</NavLink></li>
+                <li><NavLink to="/graywhale#whaleSec">The Gray Whales</NavLink></li>
                 <li><NavLink to="/tripsummaries">Trip Summaries</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>
                 <li><NavLink to="/donate">Donate</NavLink></li>
