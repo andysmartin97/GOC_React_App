@@ -6,14 +6,13 @@ import "./IntroSection.css"
 export default function IntroSection({title,paragraph}) {
 
     return(
-        <div className="Intro-Paragraph">
-<p>Test</p>
+        <div className="IntroSect">
 
-            <div className="Intro-Text">
+            <div className="Intro-TextContainer">
                 <h3>{title}</h3>
                 <p>{paragraph}</p>
-
             </div>
+
 
             <div className="Intro-BoxContainer">
         

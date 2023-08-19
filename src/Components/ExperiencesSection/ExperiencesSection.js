@@ -6,39 +6,34 @@ export default function ExperiencesSection({title,paragraph}) {
     return(
         <div className="Experiences-Container">
 
-            <div className="Title-Card">
-                <h3>{title}</h3>
-                <p>{paragraph}</p>
-
-
+            <div className="Title-Container">
+                <h2>Testimonials</h2>
             </div>
 
 
-            <div className="Text-Block-Container">
+            <div className="TextBlock-Container">
 
                 <TextBlock
-                    title="The Master Plan"
-                    paragraph="Our mission is to create a hands-on opportunity for students 
-                    to engage with their marine environment. By providing a unique and 
-                    memorable experience on the water, we inspire students toward ocean 
-                    stewardship and future involvement in activities that promote 
-                    environmental awareness and conservation."
+                    title="Review from Lincoln Elementary School (In-Person Tour):"
+                    paragraph={`"The in-person tour by the Gulf of Catalina 
+                    Gray Whale Preservation & Education Foundation was an awe-inspiring 
+                    experience for our students. The knowledgeable guides engaged them 
+                    with fascinating insights into gray whale behaviors and marine conservation. - Principal Thompson, Lincoln Elementary School"`}
                 />
 
                 <TextBlock
-                    title="In-Depth Search"
-                    paragraph="Our project is unique in two important ways. First, we work with
-                    school districts to provide a unique wildlife experience to 1600 students
-                    per year who would not otherwise experience their natural marine world.</p>"
+                    title="Review from West High School (In-Person Tour):"
+                    paragraph={`"Our high school students had a truly transformative experience during 
+                    the in-person whale watching tour. This educational trip was nothing short of exceptional, and we are grateful 
+                    for the foundation's dedication to inspiring the next generation of environmentalists." 
+                    - Science Teacher Martinez, West High School`}
                 />
 
                 <TextBlock
-                    title="General Information"
-                    paragraph="The California Gray Whale is a baleen whale that endures the longest 
-                    annual migration (~20,000 miles!) of any mammal on Earth. Gray Whales live to 
-                    be 50-70 years old and can reach a length of about 50 ft. Every October, around 
-                    20,000 Gray Whales leave the Bering and Chukchi Seas of Alaska and head 
-                    down the Pacific Coast to birth calves and find mates in the warm lagoons of Baja, Mexico."
+                    title="Review from Maple Grove Middle School (Virtual Tour):"
+                    paragraph={`"The virtual whale watching tour brought marine wonders right into our classroom. 
+                    The engaging 360-degree videos and live Q&A with marine experts made it a 
+                    captivating and educational experience for our students." - Teacher Johnson, Maple Grove Middle School`}
                 />
 
             </div>

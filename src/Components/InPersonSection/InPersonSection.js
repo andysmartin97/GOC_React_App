@@ -1,10 +1,12 @@
 import React from "react";
 import TextBlock from "../TextBlock/TextBlock"
+import "./InPersonSection.css"
+import InPerPic from "./InPersonPic.png"
 
 export default function InPersonSection() {
     return(
 
-        <div className="InPersonContainer">
+        <div className="InPerson-Container">
             <TextBlock 
                 title="Our In-Person Tour"
                 paragraph="Embark on an unforgettable journey into the heart of 
@@ -16,6 +18,13 @@ export default function InPersonSection() {
                 tail slapping, and nurturing their calves."
                     
             />
+
+            <img className="InPersonPic" src={InPerPic} alt="pictures of in-person whale watch tour"/>
+
+
+
+
+
 
         </div>
 

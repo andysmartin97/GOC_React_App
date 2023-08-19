@@ -1,43 +1,49 @@
 ul.NavBar {
 
-    background: linear-gradient(to bottom, rgba(44, 43, 42, 0.349), rgba(255, 255, 255, 0.407));
-    backdrop-filter: blur(10px); /* Apply the blur effect */
-    position: fixed;
 
-
-  align-self: center;
-    width: 97%;
+  position: fixed;
    
-    z-index: 990; /* Add z-index to ensure the header appears above other content */
+  z-index: 990; /* Add z-index to ensure the header appears above other content */
 }
 
 
   
-ul.NavBar li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    z-index: 995;
+
+.NavBar .logo img {
+    width: 10px; 
+    height: 100px; 
+    vertical-align: middle;
+    
+  }
+
+.NavBar{
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 
 }
 
-.NavBar .logo img {
-    width: 150px; /* Set the desired width */
-    height: auto; /* Maintain the aspect ratio */
-    vertical-align: middle;
-  }
+.NavBar li{
+  list-style-type: none;
+  padding: 20px;
+  text-align:center;
+  width: 100%;
+
+}
 
 
 /**/
 ul.NavBar li a {
-  z-index: 999;
+
+
   color: #fff;
-    font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
     
-    font-weight: lighter;
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
+  font-weight: lighter;
+  text-decoration: none;
+  
+    
     position: relative;
 }
 

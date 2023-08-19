@@ -17,7 +17,7 @@ function NavBar() {
     return(
         <HashRouter>
              <ul className="NavBar">              
-                <li className="logo"><img src={LogoImage} alt="Logo" /></li>
+                <li className="logo"><img src={LogoImage} alt="Logo" /></li> 
                 <li><NavLink to="/">HomeDebug</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/graywhale#whaleSec">The Gray Whales</NavLink></li>
@@ -29,8 +29,7 @@ function NavBar() {
            <div className="content">
                 <Routes>
                     <Route exact path="/" Component={Home}/>
-                    <Route path="/contact" Component={Contact}/>
-                    <Route path="/donate" Component={Donate}/>
+                
                 </Routes>
             </div>
         </HashRouter>

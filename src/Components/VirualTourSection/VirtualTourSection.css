@@ -1,0 +1,41 @@
+.VirtualTour-Container {
+    display: flex;
+
+    background-color: #05262E;
+
+    flex-wrap: wrap-reverse;
+
+    align-items: center;
+
+}
+
+
+.VirtualTour-Container .Text-Block {
+    
+    background-color: #ffffff00;
+
+    max-width: 500px;
+    min-height: 300px;
+
+    margin-left: 100px;
+    margin-right: 200px;
+
+    margin-top: 100px;
+ 
+ 
+}
+
+.VirtualPic {
+    max-width: 600px;
+    min-height: 300px;
+}
+
+
+.VirtualTour-Container .Text-Block p {
+    font-size: 16px;
+}
+
+.VirtualTour-Container .Text-Block h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import TextBlockPic from "../TextBlockPic/TextBlockPic";
 import WhalePic from "./whalePic..jpg";
 import "./WhaleSection.css"
 import TextBlock from "../TextBlock/TextBlock";

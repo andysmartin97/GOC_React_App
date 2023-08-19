@@ -1,0 +1,21 @@
+.Footer-Container footer {
+    color: white;
+    text-align: center;
+}
+
+.Footer-Container p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.Footer-Container img {
+    float: right;
+    width: 10%;
+    height: 10%;
+}
+
+
+.Footer-Container {
+    background-color: black;
+    padding: 50px;
+}

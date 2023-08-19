@@ -1,3 +1,39 @@
+/*INTRO TEXT SECTION*/
+
+.IntroSect .Intro-TextContainer p {
+  font-size: 18px;
+}
+
+.IntroSect .Intro-TextContainer h3 {
+  font-size: 22px;
+  margin-bottom: 30px ;
+}
+
+.Intro-TextContainer h3, .Intro-TextContainer p{
+
+  text-align: center;
+
+}
+
+.Intro-TextContainer {
+  padding: 200px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+/*INTRO BOX SECTION*/
 .Intro-BoxContainer {
   display: flex;
 
@@ -11,33 +47,25 @@
 
 .BoxContentIntro .Text-Block {
 
-  max-width: 500px;
-  min-height: 200px;
-
+  max-width: 400px;
+  min-height: 275px;
 
   padding: 20px;
 
   margin-right: 20px;
   margin-left: 20px;
 
-
-
 }
-
 
 
 .BoxContentIntro .Text-Block p {
-  
-
-
+  font-size: 16px;
 }
-
 
 
 .BoxContentIntro .Text-Block h4 {
   margin-bottom: 20px;
-  font-size: 18px;
-
+  font-size: 20px;
 }
 
 
