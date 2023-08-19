@@ -6,6 +6,8 @@ import InPersonSection from "../InPersonSection/InPersonSection";
 import VirtualTourSection from "../VirualTourSection/VirtualTourSection";
 import ExperiencesSection from "../ExperiencesSection/ExperiencesSection";
 import OurStoreSection from "../OurStoreSection/OurStoreSection";
+import Footer from "../Footer/Footer";
+
 
 class Home extends Component{
     render() {
@@ -44,13 +46,13 @@ class Home extends Component{
 
                 <OurStoreSection/>
 
+                <Footer/>
+
         
 
 
 
-                <p>Copyright © 2023 The Gulf of Catalina Gray Whale Preservation & Education Foundation | All Rights Reserved
-Privacy Policy & Terms of Use</p>
-
+              
                 
 
             </div>

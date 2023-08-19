@@ -10,14 +10,12 @@
   justify-content: center;
   flex-wrap: wrap-reverse;
 
-  margin-top: 100px;
+  margin-top: 300px;
   margin-bottom: 300px;
 
   margin-left: 70px;
   margin-right: 70px;
 }
-
-
 
 
 .WhalePicture {
@@ -28,7 +26,8 @@
 .BoxContent .Text-Block {
 
   max-width: 500px;
-  min-height: 300px;
+  min-height: 260px;
+  
   padding: 20px; 
 
   position: relative; /* Position the .Text-Block as a reference for the ::before pseudo-element */
@@ -39,6 +38,10 @@
   margin-bottom: 10px;
 }
 
+
+.BoxContent .Text-Block p {
+  font-size: 16px;
+}
 
 
 
@@ -52,3 +55,4 @@
   height: 12%; /* Full height of the .Text-Block */
   background-color: #FF8C00; /* Color of the orange bar */
 }
+
