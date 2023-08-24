@@ -8,12 +8,7 @@ export default function IntroCard({title,paragraph}){
         <div className="Title-Card">
             <h3>{title}</h3>
             <p>{paragraph}</p>
-
-
         </div>
-
-
    ); 
-
 
 }

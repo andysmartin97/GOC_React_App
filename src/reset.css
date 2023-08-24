@@ -2,10 +2,26 @@
 
 
 body {
-    background-image: linear-gradient(to bottom, #7EA7B0, #0C4A59, #030E11 );
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    min-height: 100vh; /* Ensure background covers at least viewport height */
+    background-image: linear-gradient(-45deg, #40b49d, #0C4A59, #000000 );
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+
+    
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 
 text, h1,h2,h3,h4,h5, p, li{
@@ -35,11 +51,14 @@ li {
 }
 
 
+
+/*Unused Button Code*/
+/*
 text {
-    background-color: #FF8C00; /* Set your desired background color */
-    padding: 5px; /* Set padding as needed */
+    background-color: #FF8C00; 
+    padding: 5px; 
     padding-left: 10px;
     padding-right: 10px;
 
 }
-
+*/

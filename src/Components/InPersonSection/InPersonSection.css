@@ -1,6 +1,5 @@
-.InPerson-Container {
-    display: flex;
 
+.InPerson-Container {
     display: flex;
 
     background-color: #0C4A59;
@@ -8,24 +7,30 @@
     flex-wrap: wrap-reverse;
 
     align-items: center;
+    justify-content: center;
+
+    width: 100%;
 }
 
 
 .InPerson-Container .Text-Block {
-    background-color: #ffffff00;
+    backdrop-filter: none;
+    background-color: #00000000;
 
     max-width: 500px;
     min-height: 300px;
 
-    margin-left: 100px;
-    margin-right: 200px;
-
+    margin-right: 100px;
     margin-top: 100px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .InPersonPic {
     max-width: 650px;
     min-height: 300px;
+    
 }
 
 .InPerson-Container .Text-Block p {
@@ -35,4 +40,20 @@
 .InPerson-Container .Text-Block h4 {
     font-size: 25px;
     margin-bottom: 15px;
+}
+
+
+
+
+
+
+.TextBlockPar-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Button-Container {
+    margin-top: -100px;
+    float: left;
+    margin-bottom: 60px;
 }

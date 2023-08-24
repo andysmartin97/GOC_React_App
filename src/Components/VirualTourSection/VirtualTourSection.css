@@ -7,27 +7,36 @@
 
     align-items: center;
 
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    justify-content: center;
+
+    
+
 }
 
 
 .VirtualTour-Container .Text-Block {
     
-    background-color: #ffffff00;
+  backdrop-filter: none;
+  background-color: #00000000;
+    
 
-    max-width: 500px;
-    min-height: 300px;
+  max-width: 500px;
+  min-height: 300px;
 
-    margin-left: 100px;
-    margin-right: 200px;
+  margin-right: 100px;
+  margin-top: 100px;
 
-    margin-top: 100px;
- 
- 
+
 }
 
 .VirtualPic {
-    max-width: 600px;
+    max-width: 650px;
     min-height: 300px;
+
 }
 
 
@@ -39,3 +48,25 @@
     font-size: 25px;
     margin-bottom: 15px;
 }
+
+
+@keyframes glowing   {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  .VirtualPic {
+    animation: glowing 2s infinite;
+  }
+
+
+  
+  /*Button*/
+

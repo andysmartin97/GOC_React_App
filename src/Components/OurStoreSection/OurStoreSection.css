@@ -1,4 +1,92 @@
+.StoreIntro-Container {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.StoreButton-Container {
+
+    display: flex;
+
+  justify-content: center; 
+    margin-top: -50px;
+    margin-bottom: 100px;
+
+}
+
+
 .OurStore-Container {
     margin-top: 100px;
-    margin-bottom: 100px;
+
+    max-width: 100%;
+    width: 100%;
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
 }
+
+
+
+/*PICTURES & LAYOUT FORMATTING*/
+
+.row {
+    display: flex;
+    overflow: hidden;
+}
+
+.Images-Container {
+    display: flex;
+    width: 100%;
+}
+
+.Images-Container img {
+    flex-shrink: 0;
+    
+    
+
+    width: 35%;
+    height: 50%;
+    background-color: black;
+
+    margin-left: 20px;
+
+    box-shadow: 5px 5px 10px lightblue;
+
+}
+
+
+/*Animation Formatting*/
+.Images-Container {
+    animation: travel 30s ease-in-out infinite;
+}
+
+@keyframes travel {
+0%, 100% {
+    transform: translate3d(0,0,0);
+    }
+50% {
+    transform: translate3d(-100%,0,0);
+    }
+}
+
+
+
+/*FONT FORMATTING*/
+.StoreIntro-Container h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.StoreIntro-Container p {
+    padding-right: 180px;
+    padding-left: 180px;
+    font-size: 18px;
+}
+
+
+
+

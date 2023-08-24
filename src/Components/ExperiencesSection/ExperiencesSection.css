@@ -5,21 +5,45 @@
 }
 
 .Title-Container h2 {
-    text-align: center;
-    font-size: 27px;
+  text-align: center;
+  font-size: 30px;
   
 }
 
 .TextBlock-Container {
   display: flex;
-  color: red;
-  
+
   margin-top: 100px;
   margin-bottom: 100px;
 
   flex-wrap: wrap;
   justify-content: center;
 
+}
+
+/*ANIMATION STYLING*/
+/*
+.TextBlock-Container {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.TextBlock-Container.active  {
+  opacity: 1;
+  transform: translateY(0);
+}
+/**
+
+/*This creates the small bar on the top left */
+.TextBlock-Container .Text-Block::before {
+  content: ''; /* Create a content box for the pseudo-element */
+  position: absolute; /* Position it absolutely within the .Text-Block */
+  top: 2; /* Place it at the top */
+  left: 0; /* Place it at the left */
+  width: 5px; /* Width of the orange bar */
+  height: 15%; /* Full height of the .Text-Block */
+  background-color: #FF8C00; /* Color of the orange bar */
 }
 
 .TextBlock-Container .Text-Block {

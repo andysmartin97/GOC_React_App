@@ -1,6 +1,7 @@
 import React from "react";
 import TextBlock from "../TextBlock/TextBlock";
 import "./ExperiencesSection.css"
+import "./ExperiencesSectionAni.js"
 
 export default function ExperiencesSection({title,paragraph}) {
     return(
@@ -45,3 +46,4 @@ export default function ExperiencesSection({title,paragraph}) {
     );
 
 }
+
