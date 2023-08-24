@@ -39,7 +39,6 @@ class Donate extends Component {
 
                     <Button text="MAKE A QUICK DONATION"></Button>
                     
-                    
                     <br/>
                     <br/>
                     <br/>
@@ -47,15 +46,7 @@ class Donate extends Component {
                     Please make check payable to <strong><em>The Gulf of Catalina Gray Whale Preservation & Education Foundation
                     Mail to 2311 Calle La Serna, San Clemente, CA 92672</em> </strong></p>
                     
-
-
-
                 </div>
-
-
-
-                
-                <ButtonLink text="Go to store" to="/store"></ButtonLink>
 
 
                 <div className="footer">
@@ -63,12 +54,6 @@ class Donate extends Component {
                     <Footer/>
 
                 </div>
-
-
-
-                
-       
-
 
             </div>
             

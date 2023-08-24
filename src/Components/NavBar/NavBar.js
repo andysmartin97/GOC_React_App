@@ -17,7 +17,7 @@ import Home from '../Home/Home';
 import Contact from "../Contact/Contact";
 
 import Store from "../Pages/Store/Store";
-import Donate from "../Pages/Store/Donate/Donate";
+import Donate from "../Pages/Donate/Donate";
 import Button from "../UIComponents/Button/Button";
 import ButtonLink from "../UIComponents/ButtonLink/ButtonLink";
 
