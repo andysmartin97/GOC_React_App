@@ -1,0 +1,10 @@
+/* Home.css */
+#about:hover,
+#whaleSec:hover,
+#inperson:hover,
+#virtual:hover,
+#testimonials:hover {
+  /* Add your desired hover styles here */
+  background-color: lightgray;
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}

@@ -1,12 +1,13 @@
 import React from "react";
-import IntroCard from "../IntroCard/IntroCard";
+import IntroCard from "../UIComponents/IntroCard/IntroCard";
 import "./OurStoreSection.css";
 import image1 from "./store01.jpg";
 import image2 from "./store02.png";
 import image3 from "./store03.jpg";
 import image4 from "./store04.jpg";
 import image5 from "./store05.jpg";
-import Button from "../Button/Button";
+import Button from "../UIComponents/Button/Button";
+import ButtonLink from "../UIComponents/ButtonLink/ButtonLink";
 
 export default function OurStoreSection(){
     return(
@@ -28,7 +29,8 @@ export default function OurStoreSection(){
 
             <div className="StoreButton-Container" >
 
-                <Button text="VISIT STORE"/>
+             
+                <ButtonLink text="VISIT STORE" to="/store"></ButtonLink>
 
             </div>
        

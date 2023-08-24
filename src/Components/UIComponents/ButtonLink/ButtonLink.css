@@ -1,0 +1,27 @@
+
+/*
+text {
+    background-color: #FF8C00; 
+    padding: 5px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+
+.custom-LinkButton {
+    background-color: #FF8C00; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  
+  .custom-LinkButton:hover {
+    background-color: #a75d02; /* Darker background color on hover */
+  }
+

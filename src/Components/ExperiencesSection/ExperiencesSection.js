@@ -1,5 +1,5 @@
 import React from "react";
-import TextBlock from "../TextBlock/TextBlock";
+import TextBlock from "../UIComponents/TextBlock/TextBlock";
 import "./ExperiencesSection.css"
 import "./ExperiencesSectionAni.js"
 

@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import "./Donate.css";
-import Footer from "../Footer/Footer";
-import Button from "../Button/Button";
+import Footer from "../../../Footer/Footer";
+import Button from "../../../UIComponents/Button/Button";
+import ButtonLink from "../../../UIComponents/ButtonLink/ButtonLink";
 
 class Donate extends Component {
     render() {
@@ -51,14 +52,21 @@ class Donate extends Component {
 
                 </div>
 
+
+
+                
+                <ButtonLink text="Go to store" to="/store"></ButtonLink>
+
+
                 <div className="footer">
+
                     <Footer/>
 
                 </div>
 
 
 
- 
+                
        
 
 

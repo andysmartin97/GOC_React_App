@@ -63,25 +63,25 @@
 .NavBar li{
   list-style-type: none;
   text-align:center;
-  
   width: 100%;
-
 }
 
 
 /**/
 ul.NavBar li a {
-
-
-
   color: #fff;
   font-family: "Rubik", sans-serif;
-    
   font-weight: lighter;
   text-decoration: none;
-    
   position: relative;
 }
+
+
+ul.NavBar li a:hover {
+  background-color: rgba(236, 159, 64, 0.513);
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
 
 .NavBar li {
   padding-top: 4px;

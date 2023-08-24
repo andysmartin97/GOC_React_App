@@ -1,0 +1,78 @@
+.Store-Container {
+    background-image: linear-gradient(#030E11, #0C4A59, #000000 );
+    background-size: 400% 400%;
+	height: 100%;
+    padding-bottom: 100px;
+
+}
+
+.StoreContent-Container {
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+
+.StoreContent-Container h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.StoreContent-Container h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.StoreContent-Container p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+.Store-Container img {
+    height: 200px;
+    width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    border-radius: 50px;
+}
+
+
+
+.Row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.PictureSection-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.PicturesStore-Container {
+    
+    width: 80%;
+
+    background-color: rgba(255, 255, 255, 0.268);
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}

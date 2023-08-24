@@ -1,8 +1,8 @@
     import React from "react";
-    import TextBlock from "../TextBlock/TextBlock"
+    import TextBlock from "../UIComponents/TextBlock/TextBlock"
     import "./InPersonSection.css"
     import InPerPic from "./InPersonPic.png"
-    import Button from "../Button/Button";
+    import Button from "../UIComponents/Button/Button";
 
 
 
